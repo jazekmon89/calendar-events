@@ -29,8 +29,9 @@ storage/logs 775
 Bootstrap/cache 775
 
 Commands need to be ran
-* php artisan migrate
 * composer update
 * composer dump-autoload
-* php artisan config:clear
 * npm install
+* php artisan key:generate
+* php artisan config:clear
+* php artisan migrate
